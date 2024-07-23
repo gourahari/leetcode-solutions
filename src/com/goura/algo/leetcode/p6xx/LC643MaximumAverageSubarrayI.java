@@ -22,4 +22,11 @@ public class LC643MaximumAverageSubarrayI {
 
         return msum/k;
     }
+
+    public static void main(String[] args) {
+        LC643MaximumAverageSubarrayI me = new LC643MaximumAverageSubarrayI();
+        System.out.println(me.findMaxAverage(new int[] {1,12,-5,-6,50,3}, 4));
+        System.out.println(me.findMaxAverage(new int[] {5}, 1));
+        System.out.println(me.findMaxAverage(new int[] {0,4,0,3,2}, 1));
+    }
 }

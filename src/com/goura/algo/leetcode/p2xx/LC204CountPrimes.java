@@ -21,4 +21,20 @@ public class LC204CountPrimes {
         }
         return count;
     }
+
+    public static void main(String[] args) {
+        LC204CountPrimes me = new LC204CountPrimes();
+        System.out.println(me.countPrimes(10));
+        System.out.println(me.countPrimes(0));
+        System.out.println(me.countPrimes(1));
+        System.out.println(me.countPrimes(2));
+        System.out.println(me.countPrimes(3));
+        System.out.println(me.countPrimes(4));
+        System.out.println(me.countPrimes(5));
+        System.out.println(me.countPrimes(6));
+        System.out.println(me.countPrimes(7));
+        System.out.println(me.countPrimes(8));
+        System.out.println(me.countPrimes(9));
+        System.out.println(me.countPrimes(100));
+    }
 }

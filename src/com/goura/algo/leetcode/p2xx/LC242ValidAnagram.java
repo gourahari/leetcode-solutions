@@ -15,4 +15,10 @@ public class LC242ValidAnagram {
                 .filter(i -> i != 0)
                 .count() == 0;
     }
+
+    public static void main(String[] args) {
+        LC242ValidAnagram me = new LC242ValidAnagram();
+        System.out.println(me.isAnagram("anagram", "nagaram"));
+        System.out.println(me.isAnagram("rat", "car"));
+    }
 }
