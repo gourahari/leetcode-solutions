@@ -25,7 +25,7 @@ public class FindPrimeFactors {
     public static void main(String[] args) {
         FindPrimeFactors me = new FindPrimeFactors();
         List<Integer> factors = me.findFactors(76);
-        for (int i = 0; i < factors.size(); i++) {
+        for (int i: factors) {
             System.out.print(factors.get(i) + " ");
         }
         System.out.println();
