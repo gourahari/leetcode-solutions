@@ -17,5 +17,8 @@ public class Test {
                         .flatMap(List::stream)
                         .collect(Collectors.toList())
         );
+        // write a program to reverse the words in a sentence.
+        String sentence = "This is a test sentence.";
+
     }
 }
