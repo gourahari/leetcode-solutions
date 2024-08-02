@@ -31,4 +31,14 @@ public class LC44WildcardMatching {
         }
         return dp[p.length()][s.length()];
     }
+
+    public static void main(String[] args) {
+        LC44WildcardMatching me = new LC44WildcardMatching();
+        System.out.println(me.isMatch("aa", "a")); // false
+        System.out.println(me.isMatch("aa", "*")); // true
+        System.out.println(me.isMatch("cb", "?a")); // false
+        System.out.println(me.isMatch("aab", "c*a*b")); // false
+        System.out.println(me.isMatch("adceb", "*a*b")); // true
+        System.out.println(me.isMatch("acdcb", "a*c?b")); // false
+    }
 }
